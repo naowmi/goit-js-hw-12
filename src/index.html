@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>HM 12</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <form class="form">
+      <li>
+        <input
+          class="input"
+          type="text"
+          name="query"
+          placeholder="Search images..."
+        />
+      </li>
+      <span class="loader"></span>
+
+      <button type="submit" class="button">Search</button>
+    </form>
+    <div class="gallery"></div>
+    <div class="box-load-more">
+      <span class="loader-more-btn"></span>
+      <button type="submit" class="button-load-more">Load More</button>
+    </div>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
